@@ -5,20 +5,21 @@
 ## N'hesitez pas à faire des pages avec du HTML/CSS
 
 ## Exercice 1 Afficher la date courante en respectant la forme jj/mm/aaaa (ex : 16/05/2016)
-
+echo date("d/m/Y");
 echo "<br><br>";
 
 
 
-## Exercice 2 Afficher la date courante en respectant la forme jj-mm-aa (ex : 16-05-16)
 
+## Exercice 2 Afficher la date courante en respectant la forme jj-mm-aa (ex : 16-05-16)
+echo date("d-m-y");
 echo "<br><br>";
 
 
 
 ## Exercice 3 Afficher la date courante avec le jour de la semaine et le mois en toutes lettres (ex : mardi 2 août 2016)
 ## Bonus : Le faire en français.
-
+echo date("");
 echo "<br><br>";
 
 
